@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid layout</title>
+
+    <style>
+
+        body > div {
+            width: 600px;
+            height: 300px;
+            border: 5px solid orange;
+            display: grid;
+            /*grid-template-columns: 1fr 1fr 1fr;*/
+            /*grid-template-rows: 1fr 1fr;*/
+            grid-template-columns: repeat(3,1fr);
+            /*grid-template-rows: repeat();*/
+        }
+        body >div > div{
+            background-color: orange;
+            border: 2px solid green;
+
+        }
+
+    </style>
+</head>
+
+<body>
+<div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div></div>
+    <div></div>
+<!--    <div></div>-->
+
+</div>
+</body>
+</html>

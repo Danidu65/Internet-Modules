@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select DOM using JS</title>
+</head>
+<body>
+
+<h5> Date</h5>
+
+<h1 name="asia">Welcome to sri lanka</h1>
+<h2 class="class">Welcome to colombo</h2>
+<h2 id="toppic">Welcome to Horana</h2>
+<h3 id="toppic4" class="class1">Welcome to IJSE</h3>
+<h4>Welcome to GDSE</h4>
+
+<div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At blanditiis dolorem dolorum eius facilis fugiat non saepe voluptas. Eum expedita ipsa perferendis unde! Dignissimos dolorem exercitationem provident quisquam soluta sunt?
+    </p>
+</div>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At blanditiis dolorem dolorum eius facilis fugiat non saepe voluptas. Eum expedita ipsa perferendis unde! Dignissimos dolorem exercitationem provident quisquam soluta sunt?
+</p>
+
+<section>
+    <ul>
+        <li>JAVA</li>
+        <li>JS</li>
+        <li>HTML</li>
+    </ul>
+
+</section>
+
+<script>
+    document.getElementsByTagName("h1");
+    document.getElementsByTagName("h2");
+    document.getElementsByTagName("h2")
+    document.getElementsByTagName("h3");
+    document.getElementsByTagName("h4");
+
+    document.getElementById("toppic");
+    document.getElementById("toppic4");
+
+    document.getElementsByClassName("class")
+    document.getElementsByClassName("class1")
+
+    document.getElementsByName("asia");
+
+    document.querySelector("#toppic");
+    document.querySelector("#toppic4");
+
+    document.querySelectorAll(".class");
+    document.querySelectorAll(".class1");
+
+    document.querySelectorAll("p");
+    document.querySelectorAll("div>p");
+
+    document.getElementsByTagName("h2")[0].innerText;
+    document.getElementsByTagName("h2");
+    document.getElementsByTagName("h1")[0];
+    document.getElementsByTagName("h2")[0].innerText;
+    document.getElementsByTagName("h2")[1].innerText="Come TO Sri Lanka";
+
+    document.getElementsByTagName("section")[0].innerText;
+
+    document.querySelectorAll("section>ul>li");
+    document.querySelectorAll("section>ul>li")[1];
+    document.querySelectorAll("section>ul>li")[1].innerText;
+    document.querySelectorAll("section>ul>li")[1].innerText = "FaceBook";
+    document.querySelectorAll("section>ul>li")[1].innerHTML = "<ol> <li>Google</li> <li>Youtube</li> </ol>";
+
+
+
+
+    var currentDate = new currentDate();
+    document.getElementsByTagName("h5")[0].innerText = `Current Date Time: ${new Date() +currentDate}`
+
+
+
+</script>
+
+</body>
+</html>

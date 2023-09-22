@@ -1,0 +1,22 @@
+/*h2{*/
+/*    color: #3341c9;*/
+/*}*/
+
+/*h3:before{*/
+/*    content: "😁👍";*/
+/*}*/
+
+ul>ol:nth-child(2)>li:first-child {
+    color: crimson;
+}
+
+ul>ol:nth-child(2)>li:nth-child(2) {
+    color: orange;
+}
+
+ul>ol:nth-child(2)>li:nth-child(2) ~ li{
+    color:deeppink;
+}
+ul>ol>ul:nth-child(2)>li:nth-child(2){
+    color: blue;
+}

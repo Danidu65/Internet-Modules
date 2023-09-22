@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        div {
+            border-radius: 50%;
+            border: 1px solid black;
+            width: 70px;
+            top: 70px;
+            height: 70px;
+        }
+    </style>
+
+</head>
+<body>
+
+
+<h1>0</h1>
+<button type="button">click</button>
+<button type="button">rest</button>
+<br>
+<br>
+
+<div class="c1"></div>
+<br>
+<button type="button">ON</button>
+
+
+<br><br><br>
+<br>
+<h1 id="change">change</h1>
+<input type="text" >
+
+<br>
+<br>
+
+<input type="password" id="password-field">
+<button type="button" id="show-password-button">Show</button>
+
+<br><br><br><br>
+
+<script>
+    let div1 = document.getElementsByTagName("div")[0];
+
+    let button1 = document.getElementsByTagName("button")[0];
+    let button2 = document.getElementsByTagName("button")[1];
+    let button3 = document.getElementsByTagName("button")[2];
+    let h1 = document.getElementsByTagName("h1")[0];
+
+    button1.addEventListener('click' , function (){
+        h1.innerText++;
+    });
+
+    button2.addEventListener('click' , function (){
+        h1.innerText=0;
+    });
+
+
+    button3.addEventListener('click' , function (){
+        if (button3.innerText == "ON") {
+            button3.innerText = "OFF";
+            div1.style.backgroundColor = "yellow";
+        }else {
+            button3.innerText = "ON";
+            div1.style.backgroundColor="transparent";
+        }
+    });
+
+    document.getElementsByTagName("input")[0].addEventListener("input" , (event) => {
+        document.getElementById("change").innerText = event.target.value;
+    })
+
+
+
+
+
+    document.getElementById("password-field").getAttribute("type");
+    document.getElementsByTagName("input")[0].getAttribute("type");
+    document.getElementsByTagName("input")[1].getAttribute("type");
+    document.getElementsByTagName("input")[0].getAttribute("type , password");
+
+
+
+    var isShow = false;
+
+    document.getElementById("show-password-button").addEventListener("click",()=>{
+            if (isShow){
+                document.getElementsByTagName("input").getAttribute("type , password");
+            }else{
+                document.getElementById("password-field").setAttribute("type , text")
+                isShow = true;
+            }
+    })
+
+
+</script>
+
+</body>
+</html>

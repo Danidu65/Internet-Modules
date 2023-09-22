@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery Events</title>
+
+    <style>
+        div {
+            border-radius: 50%;
+            border: 1px solid black;
+            width: 70px;
+            top: 70px;
+            height: 70px;
+        }
+    </style>
+
+</head>
+<body>
+
+<h1>0</h1>
+
+<button type="button">Click!</button>
+
+<br>
+<br>
+<div class="c1"></div>
+<br>
+<button type="button">ON</button>
+
+<br>
+<br>
+<input type="text">
+
+
+<script src="assets/lib/jquery.min.js"></script>
+
+<script>
+    var count = 0;
+    $('button').eq(0).on('Click' , () => {
+        count++;
+
+        $("h1").text(count);
+    });
+
+    $('button').eq(0).on('Click' , () => {
+        count = 0;
+        $('h1').text(count);
+    });
+
+    $('button').eq(1).eq(0).on('On' , () =>{
+        if (button3.innerText == "ON") {
+            button3.innerText = "OFF";
+            div1.style.backgroundColor = "yellow";
+        }else {
+            button3.innerText = "ON";
+            div1.style.backgroundColor="transparent";
+        }
+    });
+    $('input').on('input') , (event) => {
+       console.log(event.target.value);
+    };
+    
+</script>
+</body>
+</html>

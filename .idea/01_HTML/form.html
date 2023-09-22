@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Forms</title>
+</head>
+<body>
+
+<form>
+
+  <h1>HTML Forms</h1>
+
+  <input type="button" value="clike">
+  <br>
+  <br>
+  <input type="checkbox">
+  <br>
+  <br>
+  <input type="checkbox" checked>
+  <br>
+  <br>
+  <input type="color" value="#c21f32">
+  <input type="color" value="#00e379">
+  <input type="color" value="#edd70e">
+  <input type="color">
+  <br>
+  <br>
+  <input type="date" value="2023-07-22">
+  <br>
+  <br>
+  <input type="text" value="HTML">
+  <br>
+  <br>
+  <input type="file">
+  <br>
+  <br>
+  <input type="datetime-local">
+  <br>
+  <br>
+  <input type="email">
+  <input type="email" value="info@ijse.com">
+  <input type="email" placeholder="example@company.com">
+  <br>
+  <br>
+  <input type="url">
+  <input type="url" value="https://ijse.com">
+  <input type="url" value="ijse">
+  <br>
+  <br>
+  <input type="tel">
+  <input type="tel" value="+9407611111">
+  <input type="tel" placeholder="+94076xxxxxx">
+  <input type="tel" placeholder="+94076xxxxxx" pattern="[0-9]{3}-[9-0]{4}">
+  <br>
+  <br>
+  <input type="password" placeholder="Enter your password hear...">
+  <br>
+  <br>
+  <input type="number">
+  <input type="number" value="hello1111">
+  <input type="number" value="12341211">
+  <input type="number" value="545.666">
+
+  <br>
+  <br>
+  <input type="submit">
+  <br>
+  <br>
+  <input type="search" value="Search hear.......">
+
+  <br>
+  <br>
+  <input type="week">
+  <input type="week" value="2023 w4">
+
+</form>
+<form>
+
+  <img src="../assets/imges/small.jpg" alt="">
+
+</form>
+<br>
+<br>
+<form>
+
+  <input type="text">
+  <input type="time">
+  <input type="checkbox">
+
+  <input type="reset" value="reset">
+</form>
+
+<br>
+<br>
+
+<form>
+<div>
+  <label for="name">Name</label><br>
+  <input type="text" name="name"id="name">
+</div>
+</form>
+
+<br>
+<br>
+
+<form>
+  <label for="Address">Address</label><br>
+  <textarea id="Address" cols="30" rows="10"> </textarea><br>
+<br>
+
+  <label for="tech">Technology</label><br>
+  <select id="tech">
+      <option value="">Choose</option>
+      <option value="java">Java</option>
+      <option value="Python">Python</option>
+      <option value="CSS">CSS</option>
+      <option value="C#">C#</option>
+      <option value="C++">C++</option>
+  </select>
+  <br>
+  <br>
+
+  <fieldset>
+    <input type="radio" id="Java">
+    <label for="Java">Java</label><br>
+
+    <input type="radio" id="Python">
+    <label for="Python">Python</label><br>
+
+    <input type="radio" id="CSS">
+    <label for="CSS">CSS</label><br>
+
+    <input type="radio" id="C++">
+    <label for="C++">C++</label><br>
+
+    <input type="radio" id="C#">
+    <label for="C#">C#</label><br>
+
+    <br>
+    <input type="reset" value="reset">
+  </fieldset>
+  <br>
+  <br>
+
+  <label for="Country-input">Country</label><br>
+  <input type="text" id="Country-input" list="Country">
+
+  <datalist id="Country">
+      <option value="Sri Lanka">Sri Lanka</option><br>
+      <option value="Japan">Japan</option><br>
+      <option value="Italy">Italy</option><br>
+      <option value="India">India</option><br>
+      <option value="Dubai">Dubai</option><br>
+  </datalist>
+  </form>
+<br>
+<br>
+<form oninput="result.value =parseInt(a.value)+parseInt(b.value)">
+<!--  <form oninput="result.value =parseInt(a.value + b.value)">-->
+
+  <input type="range" id="a" name="a" value="10">+
+  <input type="number" id="b" name="b" value="20">=
+  <output name="result" for="a b">30</output>
+
+</form>
+<br>
+<br>
+
+<form>
+
+  <label for="tech">Technology</label><br>
+  <select id="tech">
+    <optgroup label="Programing Languages">
+    <option value="java">Java</option>
+    <option value="Python">Python</option>
+    <option value="CSS">CSS</option>
+    <option value="C#">C#</option>
+    <option value="C++">C++</option>
+    </optgroup>
+    <br>
+    <br>
+    <optgroup label="Devops">
+      <option value="aws"> AWS </option>
+      <option value="azure"> Azure</option>
+    </optgroup>
+  </select>
+
+</form>
+
+</body>
+</html>

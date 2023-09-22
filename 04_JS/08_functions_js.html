@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>08 Functions in JS</title>
+</head>
+<body>
+
+<script>
+
+    // Named Functions
+    function myFunction() {
+        console.log("Hello!");
+        return "IJSE";
+    }
+
+    let result = myFunction();
+    console.log(result);
+
+    function myFunction2(name, institute) {
+        console.log("Hello!" + name + ", " + institute);
+    }
+
+    myFunction2("Malith", "IJSE - Institute Of Software Engineering");
+
+    // Function Expressions
+    const myFunction3 = function (name) {
+        console.log("Hello!, " + name);
+    }
+
+    myFunction3("Janith");
+
+    // arrow function
+
+    const myFunction1 = (para1 , para2 , para3 ) => {
+        console.log(para1);
+        console.log(para2);
+        console.log(para3);
+    }
+
+    // myFunction1("1","2" );
+
+
+    const myFunction2 = (name , program) => {
+        // console.log('Hello!' ${name}. 'Welcome to' ${program} 'at IJSE');
+        console.log("Hello! " + name + ". Welcome to " + program +" at IJSE");
+    }
+
+    // myFunction2("Isanka" ,"GDSE");
+
+
+    const myFunction3 = new Function('arg1' , 'arg2' , 'return (arg1+arg2)' );
+
+    console.log(myFunction3(1 ,2));
+
+    function f1 (){
+        console.log("GDSE");
+    }
+    function f2 (){
+        console.log("IJSE");
+    }
+    function f3 (arg1){
+        arg1();
+    }
+    f2(f1);
+
+</script>
+
+</body>
+</html>

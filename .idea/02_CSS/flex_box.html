@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+
+    <style>
+
+        #section1{
+            width: 750px;
+            height: 250px;
+            border: 1px solid deeppink;
+            display: flex;
+            flex-direction: revert;
+            justify-content: space-around;
+        }
+
+        #section1>div{
+            width: 100px;
+            height: 100px;
+            border: 1px orange;
+            font-size: 50px;
+            box-shadow:2px 2px 10px blueviolet;
+        }
+
+        #section1 > div:first-child{
+            background: #f693ef;
+
+        }
+        #section1 > div:nth-child(2){
+            background: #9c57c2;
+            align-self: center;
+        }
+        #section1 > div:nth-child(3){
+            background: #a124d7;
+            align-self: self-end;
+
+        }
+        #section1 > div:nth-child(4){
+            background: #9d47a6;
+            align-self: center;
+
+        }
+        #section1 > div:nth-child(5){
+            background: #c55252;
+        }
+        #section1 > div:last-child{
+            background: #9b6868;
+            align-self: center;
+
+        }
+    </style>
+</head>
+<body>
+
+<section id="section1">
+
+    <div></div>
+
+    <div></div>
+
+    <div></div>
+
+    <div></div>
+
+    <div></div>
+
+    <div></div>
+
+</section>
+
+</body>
+</html>

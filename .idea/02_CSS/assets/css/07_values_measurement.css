@@ -1,0 +1,19 @@
+section{
+    /*font-size: 10px;*/
+    width: 300px;
+}
+
+body{
+    /*width: 100vw;*/
+    /*height: 150vw;*/
+    background-color: #a2c1e0;
+    /*font-size: 35px;*/
+    /*font-weight: bold;*/
+
+    /*font-size: 2em;!* 1em = 16px , 2em = 1em x 2 = 32 , 3em = 1em x 3 = 48 *!*/
+
+    /*font-size: 1rem;!* 1rem = root value *!*/
+
+    width: 10%;
+    height: 100px;
+}

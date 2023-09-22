@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 SELECTOR CSS</title>
+
+  <link rel="stylesheet" href="assets/css/style.css;">
+
+  <style>
+
+
+
+    /*////////////////////////////////////Type selector//////////////////////////////////////*/
+
+    /*h1{*/
+    /*  color: crimson;*/
+    /*}*/
+    /*p{*/
+    /*  background-color: deepskyblue;*/
+    /*}*/
+
+    /*///////////////////////////////////Id Selector////////////////////////////////////*/
+
+    /*#subtopic1{*/
+    /*  color: aqua;*/
+    /*}*/
+    /*#subtopic2{*/
+    /*  color:brown;*/
+    /*}*/
+
+    /*///////////////////////////////Class Selector/////////////////////////////////*/
+
+    /*.myStyle {*/
+    /*  color: cornflowerblue;*/
+    /*  background-color: cornsilk;*/
+    /*}*/
+    /*.myStyle2 {*/
+    /*  font-weight: bold;*/
+    /*  color: black;*/
+    /*}*/
+
+    /*////////////////////////////////////Univarsal Selector///////////////////////////////////////*/
+
+    /**{*/
+    /*  color: brown;*/
+    /*}*/
+
+    /*Okkoma select wenawa*/
+
+    /*////////////////////////////////////Attribute Selector///////////////////////////////////////*/
+
+    /*[name] {*/
+    /*  color: mediumspringgreen;*/
+    /*}*/
+
+    /*value eka neme attribute name eka thama eya hoyan yanne*/
+
+    /*////////////////////////////////////Attribute Selector///////////////////////////////////////*/
+
+    /*[name ="Js"]{*/
+    /*  font-weight: bold;*/
+    /*  color: blue;*/
+    /*}*/
+    /*[href = "https://ibm.com"]{*/
+    /*  color: brown;*/
+    /*  background-color: cornsilk;*/
+    /*}*/
+    /*[href ^= "https"]{*/
+    /*  color: red;*/
+    /*  background-color: lightcyan;*/
+    /*}*/
+    /*[href $= ".Lk"]{*/
+    /*  background-color: lightcyan;*/
+    /*  color: mediumspringgreen;*/
+    /*}*/
+
+    /*[href *="https"]{*/
+    /*  background-color: lightcyan;*/
+    /*  color: blueviolet;*/
+    /*}*/
+    /*https kiyana eka onama thanaka thiyenm eka colour karl pennanw*/
+
+    /*h1:hover{*/
+    /*  color: red;*/
+    /*  cursor:pointer;*/
+    /*}*/
+
+    /*h1:active {*/
+    /*  color: aqua;*/
+    /*}*/
+
+    /*a:visited {*/
+    /*  color: red;*/
+    /*}*/
+
+    /*a:link{*/
+    /*  color:aquamarine;*/
+    /*}*/
+
+    /*input:focus {*/
+    /*color: black;*/
+    /*background-color: aqua;*/
+    /*}*/
+
+    li:first-child{
+      color: red;
+      font-weight: bold;
+    }
+
+    /*h1:before{*/
+    /*  content:"😘👌";*/
+    /*}*/
+
+  /*li:nth-child(3) {*/
+  /*  color: aqua;*/
+  /*}*/
+
+    /*input::placeholder{*/
+    /*  color: red;*/
+    /*  font-weight: bold;*/
+    /*}*/
+
+    input::file-selector-button{
+      color: black;
+      background-color: deepskyblue;
+    }
+
+    input::file-selector-button:hover{
+      color: black;
+      background-color: chartreuse;
+    }
+
+    p::selection{
+      background-color: bisque;
+      color: red;
+    }
+
+    ::marker{
+      content: "🥂";
+    }
+
+    h1,h2,h3, #subtopic {
+      color: mediumspringgreen;
+    }
+
+  </style>
+</head>
+<body>
+<h1>Internet Technologies</h1>
+
+<a href="http://Google.com">Google</a>
+<a href="https://ibm.com">IBM</a>
+<a href="http://ijse.Lk">IJSE</a>
+<a href="http://ijsestudents.com">IJSE Student</a>
+<a href="http://ijse students.com">IJSE Student 2</a>
+
+<h3>Content</h3>
+<ol>
+  <li>HTML</li>
+<!--  <li id="subtopic1">HTML</li>-->
+  <li>
+    CSS
+    <ol>
+      <li>Introduction to CSS</li>
+      <li>History of CSS</li>
+      <li>CSS Rule</li>
+      <li>CSS Selectors</li>
+      <li>Other CSS Topics...</li>
+    </ol>
+  </li>
+  <li>JS</li>
+</ol>
+
+<section name="html">
+  <h3 id="subtopic2" class="myStyle">HTML</h3>
+  <p class="myStyle myStyle2">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis debitis explicabo fugiat ipsum iste non, perferendis praesentium recusandae vero. Adipisci corporis dolores est ex fuga tempore voluptatem voluptates voluptatibus.
+  </p>
+</section>
+
+<section>
+  <h3 class="myStyle">CSS</h3>
+<!--  <h3 id="subtopic2">CSS</h3>-->
+  <p class="myStyle">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis debitis explicabo fugiat ipsum iste non, perferendis praesentium recusandae vero. Adipisci corporis dolores est ex fuga tempore voluptatem voluptates voluptatibus.
+  </p>
+</section>
+
+<section name="Js">
+    <h3 class="myStyle">JS</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis debitis explicabo fugiat ipsum iste non, perferendis praesentium recusandae vero. Adipisci corporis dolores est ex fuga tempore voluptatem voluptates voluptatibus.
+      </p>
+    </section>
+<hr>
+
+  <section>
+    <h1> Contact Us</h1>
+    <form action="http://ContactForm.com/" target="_blank" method="get">
+
+      <label for="fname">First Name</label><br>
+      <input type="text" id="fname" placeholder="Enter your Frist Name" name="fname"><br><br>
+
+      <label for="lname">Last Name</label><br>
+      <input type="text" id="lname" placeholder="Enter your Last Name" name="lname"><br><br>
+
+      <label for="email">Email</label><br>
+      <input type="email" id="email" placeholder="example12@gmail.com" name="email">
+      <br>
+      <br>
+
+      <input type="file" >
+      <br>
+      <br>
+      <label for="Message" >Message</label><br>
+      <textarea id="Message" cols="22" rows="3"></textarea>
+      <br>
+      <input type="submit" value="Submite" style="color: blue ">
+      <input type="reset" value="Reset" style="color: blue">
+    </form>
+  </section>
+
+  </body>
+</html>

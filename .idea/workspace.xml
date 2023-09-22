@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="122d32f3-b215-4b76-8680-f1fcac84b216" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2SH2b93HF0TQ2arme0SaP109tUs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/OneDrive/Desktop/New folder (4)/ITS1119-GDSE65&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Second Semester\WEB\ITS1119-GDSE65" />
+      <recent name="H:\Second Semester\WEB\ITS1119-GDSE65\.idea\02_CSS\assets\css" />
+      <recent name="H:\Second Semester\WEB\ITS1119-GDSE65\.idea\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Second Semester\WEB\ITS1119-GDSE65\02_CSS" />
+      <recent name="H:\Second Semester\WEB\ITS1119-GDSE65\.idea\02_CSS" />
+      <recent name="H:\Second Semester\WEB\ITS1119-GDSE65\.idea\02_CSS\assets\css" />
+      <recent name="H:\Second Semester\WEB\ITS1119-GDSE65\.idea\assets\PDF" />
+      <recent name="H:\Second Semester\WEB\ITS1119-GDSE65\.idea\assets\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="absolute_position.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ITS1119-GDSE65/.idea/01_HTML/absolute_position.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.absolute_position.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="122d32f3-b215-4b76-8680-f1fcac84b216" name="Changes" comment="" />
+      <created>1688789257430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688789257430</updated>
+      <workItem from="1688789258786" duration="4895000" />
+      <workItem from="1688803855510" duration="4879000" />
+      <workItem from="1688809396184" duration="3503000" />
+      <workItem from="1688830926398" duration="430000" />
+      <workItem from="1689005997072" duration="86000" />
+      <workItem from="1689392628329" duration="11178000" />
+      <workItem from="1689438831403" duration="416000" />
+      <workItem from="1689531174842" duration="24000" />
+      <workItem from="1689996726750" duration="18844000" />
+      <workItem from="1690038511342" duration="13000" />
+      <workItem from="1690557755467" duration="1717000" />
+      <workItem from="1690602777474" duration="5577000" />
+      <workItem from="1690608660272" duration="1167000" />
+      <workItem from="1690609940295" duration="4420000" />
+      <workItem from="1690619623222" duration="8145000" />
+      <workItem from="1691058134142" duration="12000" />
+      <workItem from="1691089774992" duration="26000" />
+      <workItem from="1691090088596" duration="92000" />
+      <workItem from="1691207135605" duration="11781000" />
+      <workItem from="1691567096764" duration="22000" />
+      <workItem from="1691567664412" duration="991000" />
+      <workItem from="1691913689322" duration="5966000" />
+      <workItem from="1691934153852" duration="8590000" />
+      <workItem from="1692194146529" duration="5025000" />
+      <workItem from="1692413532384" duration="9059000" />
+      <workItem from="1692545352849" duration="661000" />
+      <workItem from="1692957204758" duration="5000" />
+      <workItem from="1693000735054" duration="640000" />
+      <workItem from="1693209059964" duration="2118000" />
+      <workItem from="1693375513429" duration="21000" />
+      <workItem from="1693465531060" duration="19000" />
+      <workItem from="1693465574180" duration="1845000" />
+      <workItem from="1693471786879" duration="633000" />
+      <workItem from="1693624044576" duration="12698000" />
+      <workItem from="1693892639805" duration="695000" />
+      <workItem from="1694228873269" duration="2742000" />
+      <workItem from="1694245888087" duration="2726000" />
+      <workItem from="1694782023244" duration="27000" />
+      <workItem from="1694833602431" duration="572000" />
+      <workItem from="1695389711976" duration="814000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

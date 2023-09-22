@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Absolute Position</title>
+
+    <style>
+        section {
+            Border : 5px solid black;
+            width: 700px;
+            height: 400px;
+            position: absolute;
+        }
+        section > div{
+            width: 100px;
+            aspect-ratio: 1/1;
+            position: absolute;
+        }
+
+        section > div:first-child{
+            background-color: red;
+            top: 0;
+            left: 0;
+        }
+
+        section > div:nth-child(2){
+            background-color: #3a056c;
+            top: 0px;
+            right: 0;
+        }
+        section > div:nth-child(3){
+            background-color: #c55353;
+            bottom: 0px;
+            left: 0;
+        }
+        section > div:nth-child(4){
+            background-color: #a2c1e0;
+            bottom: 0px;
+            right: 0;
+        }
+        section > div:nth-child(5){
+            background-color: #0237ad;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 100%;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<section>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+</section>
+</body>
+</html>
